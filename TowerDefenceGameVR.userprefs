@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/C#/Enemy.cs">
+    <Files>
+      <File FileName="Assets/C#/Bullet.cs" Line="69" Column="24" />
+      <File FileName="Assets/C#/Enemy.cs" Line="178" Column="20" />
+      <File FileName="Assets/C#/PathNode.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/Tower.cs" Line="75" Column="21" />
+      <File FileName="Assets/C#/TowerSpot.cs" Line="84" Column="55" />
+      <File FileName="Assets/LaserHit.cs" Line="20" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kakehit/pCloud Sync/w094_TowerDefenceGameInVR/UNITY/TowerDefenceGameVR/Assets/C#/Tower.cs" line="125" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
