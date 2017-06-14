@@ -104,11 +104,7 @@ public class Enemy : MonoBehaviour {
 
 		// Example: get controller's current orientation:
 		Quaternion ori = GvrController.Orientation;
-		Vector3 v = ori * playerArmObject.transform.forward;
-
-		// If you want a vector that points in the direction of the controller
-		// you can just multiply this quat by Vector3.forward:
-		Vector3 vector = ori * Vector3.forward;
+		Vector3 v = ori * transform.forward;
 
 		// ...or you can just change the rotation of some entity on your scene
 		// (e.g. the player's arm) to match the controller's orientation
@@ -146,7 +142,8 @@ public class Enemy : MonoBehaviour {
 			
 		}
 
-		ShootLaserFromTargetPosition(v, 200f);
+		// The direction of the laser is the forward direction of the player arm object
+		ShootLaserFromTargetPosition(playerArmObject.transform.forward, 200f);
 	}
 
 	void ReachedGoal(){
